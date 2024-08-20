@@ -4,25 +4,39 @@ body {
 }
 header {
     padding: 1em;
-    background: linear-gradient(90deg, #a65388, #feb47b);
+    background: #333;
+    
 }
-h1 {
-    margin-right: auto;
-}
-ul {
+nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: white
+}
+
+ul {
+    gap: 10px;
+    display: flex;
+    justify-content: space-evenly;    
     list-style: none;
-    justify-content: space-evenly;
 }
 ul > li > a {
-    color: white;
+    color: white;    
+    list-style: none;
     text-decoration: none;
+    padding: 5px 10px;
+    background-color: transparent;
     cursor: pointer;
 }
 ul > li > a:hover {
-    color: rgb(27, 20, 20);
-    text-decoration: none;
+    color: white;
     padding: 5px 10px;
-    border-radius: 10px;
-    background: white;
+    border-radius: 20px;
+    background-color: rgb(108, 108, 209);
 }
