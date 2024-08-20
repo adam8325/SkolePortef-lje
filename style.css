@@ -6,6 +6,9 @@ header {
     padding: 1em;
     background: linear-gradient(90deg, #a65388, #feb47b);
 }
+h1 {
+    margin-right: auto;
+}
 ul {
     display: flex;
     list-style: none;
