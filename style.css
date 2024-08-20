@@ -19,7 +19,7 @@ ul > li > a {
 ul > li > a:hover {
     color: rgb(27, 20, 20);
     text-decoration: none;
-    padding: 7px 12px;
+    padding: 5px 10px;
     border-radius: 10px;
     background: white;
 }
