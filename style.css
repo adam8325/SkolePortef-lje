@@ -93,7 +93,7 @@ body {
     max-width: 450px;
     opacity: 0;
     animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
-    animation-delay: 2s;
+    animation-delay: 2s, 3s;
 }
 img {
     max-width: 450px;
