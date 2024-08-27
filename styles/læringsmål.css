@@ -1,0 +1,12 @@
+
+.learning-container {
+    padding: 0 10%;
+}
+.learning-h1 {
+    font-size: 2rem;
+    margin: 40px 0;
+}
+.learning-goals {
+    display: flex;
+    justify-content: space-between;
+}
