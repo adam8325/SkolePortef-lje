@@ -2,31 +2,39 @@
 .learning-container {
     padding: 0 10%;
 }
-.learning-goals {
+.column-1, .column-2 {
     display: flex;
     justify-content: space-between;
-    column-gap: 200px;
+    align-items: flex-start;
+    gap: 100px;
+    height: 600px;
+    border: 1px solid #ededed;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
-
-.column {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 48%;
-    margin-bottom: 40px;
+.box {
+    line-height: 30px;
+    padding: 20px;
 }
 
 .learning-h1 {
     font-size: 2rem;
     margin: 40px 0;
 }
-.learning-goals h2 {
+.learning-container h2 {
     font-size: 1.5rem;
     margin-bottom: 20px;
 }
-.learning-goals h3 {
+.learning-container h3 {
     font-size: 1.5rem;
-    margin: 20px 0;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.learning-container .outer-li {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 5px 0;
 }
 
 ul {
