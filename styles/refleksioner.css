@@ -9,7 +9,7 @@ section {
     padding-bottom: 50px;
 }
 .container-accord {    
-    margin-top: 2rem;
+    margin-top: 1.7rem;
     padding: 7px 10px;
     border-radius: 10px;
     border: 2px solid #fff;
@@ -31,6 +31,7 @@ section {
 }
 .header-refleksion {
     padding: 3% 0 0 10%;
+    font-size: 1.5rem;
 }
 .question h3 {
     font-size: 1rem;
