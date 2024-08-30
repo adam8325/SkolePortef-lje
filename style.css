@@ -64,7 +64,7 @@ body {
     justify-content: space-between;
     align-items: center;
     z-index: 9999;
-    border-bottom: 1px solid whitesmoke;
+    background: linear-gradient(to right, rgb(15, 83, 146), #081b29);
 }
 
 .logo {

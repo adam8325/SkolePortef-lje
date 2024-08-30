@@ -1,0 +1,71 @@
+.accordion-container {
+    display: flex;
+    margin: 0;    
+    padding: 20px 3%;
+    color: black;
+}
+section {
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.container-accord {    
+    margin-top: 2rem;
+    padding: 7px 10px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    cursor: pointer;    
+    background-image: linear-gradient(to bottom right, #c0c0c0, #808080);
+    border-radius: 5px;
+}
+.check-icon {
+    margin-left: auto;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #160909;
+}
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-refleksion {
+    padding: 3% 0 0 10%;
+}
+.question h3 {
+    font-size: 1rem;
+}
+.answer p {
+    padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    max-width: 480px;
+    transition: max-height 1.4s ease;
+}
+
+.container-accord.active .answer {
+    max-height: 300px;
+    animation: fade 1s ease-in-out;
+}
+.container-accord.active svg {
+    transform: rotate(180deg);
+}
+svg {
+    transition: transform 0.5s ease-in;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,20 +1,30 @@
 
 .learning-container {
-    padding: 0 10%;
+    margin: 0;
 }
+
 .column-1, .column-2 {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 100px;
-    height: 600px;
-    border: 1px solid #ededed;
-    border-radius: 10px;
+    gap: 10px;
+    height: 500px;
     margin-bottom: 20px;
+}
+
+.column-1 {
+    color: #fff;
+    background: #252525;
+}
+.column-2 {
+    background: #fff;
+    color: #252525;
 }
 .box {
     line-height: 30px;
-    padding: 20px;
+    width: 570px;
+    margin: 0 auto;
+    padding: 10px 0;
 }
 
 .learning-h1 {

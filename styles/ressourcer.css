@@ -38,10 +38,12 @@ a:focus {
 .tilesWrap {
     padding: 0;
     margin: 50px auto;
+    gap: 30px;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
+    
   }
   .tilesWrap li {
     display: inline-block;

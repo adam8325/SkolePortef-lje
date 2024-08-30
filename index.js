@@ -12,6 +12,16 @@ function applyNavbarLinkListeners() {
     });
 }
 
+//Accordion toggle function
+
+const faqs = document.querySelectorAll(".container-accord");
+
+faqs.forEach((faq) => { 
+    faq.addEventListener('click', () => {
+        faq.classList.toggle('active');
+    });
+});
+
 
 // Fetch and insert the header, then apply event listeners
 fetch('/assets/header.html')
@@ -39,3 +49,5 @@ let typed = new Typed('.multiple-text', {
     backDelay: 500,
     loop: true
 });
+
+
