@@ -1,0 +1,38 @@
+.proces-container {
+    padding: 0 10%;
+}
+.header-proces {
+    padding: 3% 0;
+    font-size: 1.5rem;
+}
+p {
+    margin-bottom: 40px;
+    font-size: 0.8rem;
+}
+.proces-img {
+    border-radius: 0.5rem;
+    margin-bottom: 40px;
+    width: 100%;
+    max-width: 100%;
+    border: none;
+}
+.scrum-container {
+    position: relative;
+}
+.pert-container {
+    position: relative;
+}
+.scrum-text {
+    position: absolute;
+    background-color: black;
+    padding: 10px;
+    border-radius: 2px;
+    bottom: 8%;
+}
+.pert-text {
+    position: absolute;
+    background-color: black;
+    padding: 10px;
+    border-radius: 2px;
+    bottom: 7%;
+}
