@@ -1,38 +1,63 @@
 .proces-container {
     padding: 0 10%;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
+.proces-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    padding: 3% 0;
+}
+.pert-box {
+    flex-direction: row-reverse;
+    margin-top: 50px;
+    background-image: linear-gradient(to right, #3c3939, #000000); /* Black to grayish gradient */
+    border-radius: 10px;
+    padding: 3% 3%;
+
+}
+.scrum-box {
+    background-image: linear-gradient(to right, #000000, #3c3939); /* Dark red to red gradient */
+
+    border-radius: 10px;
+    padding: 3% 3%;
+}
+
 .header-proces {
     padding: 3% 0;
     font-size: 1.5rem;
 }
 p {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-size: 0.8rem;
 }
 .proces-img {
     border-radius: 0.5rem;
-    margin-bottom: 40px;
-    width: 100%;
-    max-width: 100%;
-    border: none;
+    width: 500px;
+    display: block;
+    transition: transform 0.3s ease;
+    background-color: whitesmoke;
 }
-.scrum-container {
+.scrum-container, .pert-container {
     position: relative;
+    width: 100%;    
 }
-.pert-container {
-    position: relative;
+.pert-container:hover {
+    transform: scale(2); /* Scale the image to 200% of its original size */
+    transform: translate(80%, 0%) scale(1.5); /* Center the image and scale it */
 }
-.scrum-text {
+.scrum-container:hover {
+    transform: translate(-80%, 0%) scale(1.9); /* Center the image and scale it */
+}
+.scrum-text, .pert-text {
     position: absolute;
     background-color: black;
+    border: 1px solid white;
+    font-size: 0.4rem;
     padding: 10px;
-    border-radius: 2px;
-    bottom: 8%;
-}
-.pert-text {
-    position: absolute;
-    background-color: black;
-    padding: 10px;
-    border-radius: 2px;
-    bottom: 7%;
+    border-radius: 1px;
+    bottom: 0;
+    z-index: 2;
 }
