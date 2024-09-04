@@ -14,15 +14,20 @@ section {
     border-radius: 10px;
     border: 2px solid #fff;
     cursor: pointer;    
-    background-image: linear-gradient(to bottom right, #c0c0c0, #808080);
+    background: white;
     border-radius: 5px;
 }
 .check-icon {
     margin-left: auto;
-    padding: 5px;
+    padding: 3px;
     margin-right: 10px;
     border-radius: 50%;
     background-color: #160909;
+}
+
+.fa-calendar-days {
+    margin-right: auto;
+    padding: 3px 10px;
 }
 .question {
     display: flex;
@@ -40,7 +45,7 @@ section {
     padding-top: 1rem;
     line-height: 1.6;
     font-size: 0.8rem;
-    font-weight: 400;
+    font-weight: 500;
 }
 .answer {
     max-height: 0;

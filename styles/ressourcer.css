@@ -7,7 +7,7 @@ main {
     justify-content: space-evenly;
     gap: 100px;
 }
-h1 {
+.ressource-header {
     font-size: 2rem;
     margin: 40px 0;
 }
@@ -36,6 +36,8 @@ a:focus {
 /* Taken from https://devdevout.com/css/css-list-styles*/
 
 .tilesWrap {
+    display: flex;
+    justify-content: space-between;
     padding: 0;
     margin: 50px auto;
     list-style: none;
@@ -92,7 +94,7 @@ a:focus {
     right: -2px;
     bottom: -2px;
     z-index: -1;
-    background: #fff;
+    background: red;
     transform: skew(2deg, 2deg);
   }
   .tilesWrap li:after {
@@ -104,6 +106,7 @@ a:focus {
     top: 0;
     background: rgba(255, 255, 255, 0.02);
   }
+  
   .tilesWrap li:nth-child(1):before {
     background: #C9FFBF;
   background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);
