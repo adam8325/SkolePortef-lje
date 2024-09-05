@@ -6,11 +6,11 @@ fetch('../assets/header.html')
         const headerPlaceholder = document.getElementById('header-placeholder');
         headerPlaceholder.innerHTML = data;
 
-        // Check if the current page is index.html or the Netlify domain
+        // Check if the current page is index.html or the root of the Netlify domain
         const isIndexPage = window.location.pathname.endsWith('index.html');
-        const isNetlifyDomain = window.location.hostname === 'adams-porteflje.netlify.app';
+        const isRootNetlifyDomain = window.location.hostname === 'adams-porteflje.netlify.app' && window.location.pathname === '/';
 
-        if (isIndexPage || isNetlifyDomain) {
+        if (isIndexPage || isRootNetlifyDomain) {
             document.querySelector('.header').classList.add('animate');
         }
     });
