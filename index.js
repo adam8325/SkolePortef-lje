@@ -6,12 +6,14 @@ fetch('../assets/header.html')
         const headerPlaceholder = document.getElementById('header-placeholder');
         headerPlaceholder.innerHTML = data;
 
-        // Check if the current page is index.html
-        if (window.location.pathname.endsWith('index.html')) {
+        // Check if the current page is index.html or the Netlify domain
+        const isIndexPage = window.location.pathname.endsWith('index.html');
+        const isNetlifyDomain = window.location.hostname === 'adams-porteflje.netlify.app';
+
+        if (isIndexPage || isNetlifyDomain) {
             document.querySelector('.header').classList.add('animate');
         }
     });
-
 
 //Accordion toggle function
 
