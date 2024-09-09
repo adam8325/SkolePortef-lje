@@ -1,4 +1,6 @@
 
+/* LAYOUT */
+
 .learning-container {
     margin: 0;
     padding: 0 10%;
@@ -21,6 +23,9 @@
     background: white;
     border-radius: 5px;    
 }
+
+/* TYPOGRAPHY */
+
 .learning-h1 {
     font-size: 1.5rem;
     margin: 20px 0;
@@ -57,6 +62,8 @@ ul ul {
     
 }
 
+/* ACCORDION */
+
 .container-accord {    
     margin-top: 1.7rem;
     padding: 7px 10px;
@@ -90,6 +97,9 @@ ul ul {
 svg {
     transition: transform 0.5s ease-in;
 }
+
+/* ANIMATIONS */
+
 @keyframes fade {
     from {
         opacity: 0;

@@ -1,3 +1,6 @@
+
+/* LAYOUT */
+
 .accordion-container {
     display: flex;
     margin: 0;    
@@ -8,11 +11,7 @@ section {
     margin: 0 auto;
     padding-bottom: 50px;
 }
-.ressourcer-text {
-    text-decoration: underline;
-    font-weight: bolder !important;
-    margin: -10px 0;
-}
+
 .container-accord {    
     margin-top: 1.7rem;
     padding: 7px 10px;
@@ -22,6 +21,30 @@ section {
     background: white;
     border-radius: 5px;
 }
+
+/* TYPOGRAPHY */
+
+.ressourcer-text {
+    text-decoration: underline;
+    font-weight: bolder !important;
+    margin: -10px 0;
+}
+.header-refleksion {
+    padding: 3% 0 0 10%;
+    font-size: 1.5rem;
+}
+.question h3 {
+    font-size: 1rem;
+}
+.answer p {
+    padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+/* ACCORDION SPECIFIC */
+
 .check-icon {
     margin-left: auto;
     padding: 3px;
@@ -39,19 +62,7 @@ section {
     justify-content: space-between;
     align-items: center;
 }
-.header-refleksion {
-    padding: 3% 0 0 10%;
-    font-size: 1.5rem;
-}
-.question h3 {
-    font-size: 1rem;
-}
-.answer p {
-    padding-top: 1rem;
-    line-height: 1.6;
-    font-size: 0.8rem;
-    font-weight: 500;
-}
+
 .answer {
     max-height: 0;
     overflow: hidden;
@@ -69,6 +80,8 @@ section {
 svg {
     transition: transform 0.5s ease-in;
 }
+
+/* ANIMATION */
 
 @keyframes fade {
     from {

@@ -1,4 +1,6 @@
 
+/* LAYOUT */
+
 main {
     padding: 0 10%;
 }
@@ -7,6 +9,9 @@ main {
     justify-content: space-evenly;
     gap: 100px;
 }
+
+/* TYPOGRAPHY */
+
 .ressource-header {
     font-size: 2rem;
     margin: 40px 0;
@@ -19,7 +24,11 @@ main {
 }
 p {
     font-size: .8rem;
+    font-weight: 500;
 }
+
+/* LINKS */
+
 a {
     color: #0ef;
 }
@@ -27,11 +36,14 @@ a:hover,
 a:focus {
     color: whitesmoke;
 }
+
+/* IMAGE */
+
 .frontend-pic {
     width: 280px;
 }
 
-
+/* UL STYLING */
 
 /* Taken from https://devdevout.com/css/css-list-styles*/
 
