@@ -1,56 +1,68 @@
 .proces-container {
-    padding: 0 10%;
+    padding: 0 7.5%;
     margin-bottom: 50px;
     margin-top: 50px;
+    z-index: 1;
 }
-.proces-box {
+.section-box {
+    width: 95%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 100px;
-    padding: 3% 0;
+    padding: 3% 3%;
+    background-color: transparent;
+    background-image: linear-gradient(to right, rgb(29, 96, 101), rgb(18, 18, 34));
+    border: 1px solid #0ef;
+    border-radius: 10px;
 }
+
+a {
+    color: #0ef;
+}
+a:hover, 
+a:focus {
+    color: whitesmoke;
+}
+
 .pert-box {
     flex-direction: row-reverse;
     margin-top: 50px;
-    background-image: linear-gradient(to right, #3c3939, #000000); /* Black to grayish gradient */
-    border-radius: 10px;
-    padding: 3% 3%;
-
-}
-.scrum-box {
-    background-image: linear-gradient(to right, #000000, #3c3939); /* Dark red to red gradient */
-    border-radius: 10px;
-    padding: 3% 3%;
+    background-image: linear-gradient(to left, rgb(29, 96, 101), rgb(18, 18, 34));
 }
 
 .header-proces {
-    padding: 3% 0;
+    padding: 0% 3%;
     font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.individuel-header {
+    padding: 0% 3%;
+    text-align: right;
+    margin-top: 50px;
+    margin-bottom: -20px;
 }
 p {
     margin-bottom: 20px;
-    font-size: 0.8rem;
+    font-size: 1rem;
+    font-weight: 500;
 }
 .proces-img {
-    border-radius: 0.5rem;
-    width: 500px;
+    border-radius: 0.5rem;    
     display: block;
     border: none;
     box-shadow: none;
     transition: transform 0.3s ease;
-    background-color: whitesmoke;
 }
 .scrum-container, .pert-container {
     position: relative;
-    width: 100%;    
 }
 .pert-container:hover {
-    transform: scale(2); /* Scale the image to 200% of its original size */
-    transform: translate(80%, 0%) scale(1.5); /* Center the image and scale it */
+    transform: translate(80%, 0%) scale(2.35); /* Center the image and scale it */
 }
 .scrum-container:hover {
-    transform: translate(-80%, 0%) scale(1.9); /* Center the image and scale it */
+    transform: translate(-80%, 0%) scale(2.5); /* Center the image and scale it */
 }
 .scrum-text, .pert-text {
     position: absolute;

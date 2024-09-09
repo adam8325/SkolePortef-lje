@@ -1,3 +1,5 @@
+/* LAYOUT */
+
 * {
     margin: 0;
     padding: 0;
@@ -18,6 +20,48 @@ body {
 .home-content {
     max-width: 600px;
 }
+
+/* NAVBAR */
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9999;
+    background: linear-gradient(to right, rgb(15, 83, 146), #081b29);
+}
+.navbar a {
+    display: inline-block;
+    font-size: 1rem;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+.navbar a:hover,
+.navbar a.active {    
+    color: #0ef;    
+}
+
+.header.animate .logo,
+.header.animate .navbar a {
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+}
+
+.header.animate .navbar a {
+    animation: slideTop .5s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+
+/* TYPOGRAPHY */
+
 .home-content h1 {
     font-size: 3rem;
     font-weight: 700;
@@ -52,48 +96,13 @@ body {
     animation-delay: 1s;
 }
 
-.header {
-    position: sticky;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 10%;
-    background: transparent;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 9999;
-    background: linear-gradient(to right, rgb(15, 83, 146), #081b29);
-}
+/* IMAGES */
 
 .logo {
     font-size: 1.25rem;
     color: #ededed;
     text-decoration: none;
     font-weight:600;
-}
-.navbar a {
-    display: inline-block;
-    font-size: 1rem;
-    color: #ededed;
-    text-decoration: none;
-    font-weight: 500;
-    margin-left: 35px;
-}
-.navbar a:hover,
-.navbar a.active {    
-    color: #0ef;    
-}
-
-.header.animate .logo,
-.header.animate .navbar a {
-    opacity: 0;
-    animation: slideRight 1s ease forwards;
-}
-
-.header.animate .navbar a {
-    animation: slideTop .5s ease forwards;
-    animation-delay: calc(.2s * var(--i));
 }
 
 .home-img {
@@ -108,6 +117,8 @@ img {
     box-shadow: 0 0 10px #0ef;
     border-radius: 50%;
 }
+
+/* FOOTER */
 
 .footer-links{
     position: absolute;
@@ -155,7 +166,7 @@ img {
     width: 100%;
 }
 
-/* Keyframe Animations */
+/* KEYFRAME ANIMATIONS */
 
 @keyframes slideRight {
     0% {

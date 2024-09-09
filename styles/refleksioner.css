@@ -8,6 +8,11 @@ section {
     margin: 0 auto;
     padding-bottom: 50px;
 }
+.ressourcer-text {
+    text-decoration: underline;
+    font-weight: bolder !important;
+    margin: -10px 0;
+}
 .container-accord {    
     margin-top: 1.7rem;
     padding: 7px 10px;
@@ -55,7 +60,7 @@ section {
 }
 
 .container-accord.active .answer {
-    max-height: 300px;
+    max-height: 400px;
     animation: fade 1s ease-in-out;
 }
 .container-accord.active svg {
