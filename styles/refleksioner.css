@@ -1,48 +1,43 @@
 
 /* LAYOUT */
 
-body {
-    margin: 0;
-}
-
 .accordion-container {
     display: flex;
-    margin: 0;    
-    padding: 20px 3%;
+    justify-content: space-between;
     color: black;
+    padding: 0 8em
 }
 section {
-    margin: 0 auto;
-    padding-bottom: 50px;
+    padding-bottom: 3em;   
 }
 
 .container-accord {    
-    margin-top: 1.7rem;
-    padding: 7px 10px;
-    border-radius: 10px;
+    margin-top: 1.7em;
+    padding: 0em 1em;
+    border-radius: 5px;
     border: 2px solid #fff;
     cursor: pointer;    
     background: white;
-    border-radius: 5px;
 }
 
 /* TYPOGRAPHY */
 
+.header-refleksion {    
+    font-size: 1.5rem;
+    padding: 1em 5.3em 0 5.3em;
+}
+
 .ressourcer-subheadings {
     text-decoration: underline;
     font-weight: bolder !important;
-    margin: -10px 0;
+    margin: 1em 0;
 }
-.header-refleksion {
-    padding: 3% 0 0 10%;
-    font-size: 1.5rem;
-}
+
 .question h3 {
     font-size: 1rem;
 }
 .answer p {
-    padding-top: 1rem;
-    line-height: 1.6;
+    line-height: 1.5;
     font-size: 0.8rem;
     font-weight: 500;
 }
@@ -51,17 +46,18 @@ section {
 
 .check-icon {
     margin-left: auto;
-    padding: 3px;
-    margin-right: 10px;
+    padding: .3em;
+    margin-right: 1em;
     border-radius: 50%;
     background-color: #160909;
 }
 
 .fa-calendar-days {
     margin-right: auto;
-    padding: 3px 10px;
+    padding: 1em 1em;
 }
 .question {
+    height: 2.7vw;
     display: flex;
     justify-content: space-between;
     align-items: center;

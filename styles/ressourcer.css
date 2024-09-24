@@ -2,28 +2,27 @@
 /* LAYOUT */
 
 main {
-    padding: 0 10%;
+    padding: 0 8em;
 }
 .ressource-container {
     display: flex;
     justify-content: space-evenly;
-    gap: 100px;
+    gap: 10vw;
 }
 
 /* TYPOGRAPHY */
 
 .ressource-header {
-    font-size: 2rem;
-    margin: 40px 0;
-}
-.ressource-container p {
-    margin-bottom: 20px;
+    font-size: 1.5rem;
+    margin: 2em 0;
 }
 .ressource-container h2 {
-    margin-bottom: 20px;
+    font-size: 1.3rem;
+    margin-bottom: 1.3em;
 }
 p {
     font-size: .8rem;
+    line-height: 1.5;
     font-weight: 500;
 }
 
@@ -52,7 +51,7 @@ a:focus {
     justify-content: space-between;
     padding: 0;
     margin: 50px auto;
-    list-style: none;
+    list-style: none; 
     text-align: center;
     
   }
