@@ -2,13 +2,12 @@
 /* LAYOUT */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;    
 }
 body {
     color: #ededed;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 .home {
     height: 90vh;
@@ -16,10 +15,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10%;
+    padding: 0 8em;
 }
 .home-content {
-    max-width: 600px;
+    min-width: 400px;
+    width: 50%;
 }
 
 /* NAVBAR */
@@ -29,7 +29,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
+    padding: 1.25em 8em;
     background: transparent;
     display: flex;
     justify-content: space-between;
@@ -124,10 +124,11 @@ img {
 .footer-links{
     position: absolute;
     bottom: 40px;
-    width: 170px;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-
+    justify-content:flex-start;
+    gap: 3vh;
+    padding: 0 8em;
 }
 .footer-links a{
     position: relative;
