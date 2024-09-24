@@ -8,17 +8,17 @@
 
 .section-container {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 100px;
+    gap: 3vh;
     margin-bottom: 20px;    
-    height: max-content;    
-
+    height: max-content;   
 }
 .valgfag-beskrivelse {
     border: 1px solid #000;
     padding: 5px 10px;
-    width: 50%;
+    width: 100%;
     color: #081b29;
     background: white;
     border-radius: 5px;    
@@ -55,17 +55,21 @@ ul {
     padding-left: 20px;
 }
 
+ul li {
+    margin-bottom: .5em;
+}
+
 ul ul {
     list-style-type: circle;
     font-size: 0.8rem;
-    padding-left: 20px;
-    
+    padding-left: 20pxr    
 }
 
 /* ACCORDION */
 
 .container-accord {    
     padding: 7px 10px;
+    width: 100%;
     border-radius: 10px;
     border: 2px solid #fff;
     color: #ededed;
@@ -87,7 +91,7 @@ ul ul {
     transition: max-height 1.4s ease;
 }
 .container-accord.active .answer {
-    max-height: 400px;
+    max-height: 650px;
     animation: fade 1s ease-in-out;
 }
 .container-accord.active svg {
