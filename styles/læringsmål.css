@@ -3,7 +3,7 @@
 
 .learning-container {
     margin: 0;
-    padding: 0 8em;
+    padding: 5em 8em;
 }
 
 .section-container {
@@ -27,8 +27,7 @@
 /* TYPOGRAPHY */
 
 .learning-h1 {
-    font-size: 1.5rem;
-    margin: 20px 0;
+    margin-bottom: 1.7em;
 }
 .learning-container h2 {
     font-size: 1.3rem;

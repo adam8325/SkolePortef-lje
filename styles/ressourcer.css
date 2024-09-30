@@ -2,7 +2,7 @@
 /* LAYOUT */
 
 main {
-    padding: 0 8em;
+    padding: 2em 8em;
 }
 .ressource-container {
     display: flex;
@@ -13,11 +13,9 @@ main {
 /* TYPOGRAPHY */
 
 .ressource-header {
-    font-size: 1.5rem;
-    margin: 2em 0;
+    margin-top: 2em;
 }
 .ressource-container h2 {
-    font-size: 1.3rem;
     margin-bottom: 1.3em;
 }
 p {
