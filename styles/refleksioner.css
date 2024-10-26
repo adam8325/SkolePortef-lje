@@ -92,3 +92,46 @@ svg {
         transform: translateY(0);
     }
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+    .accordion-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 3em;
+    }
+    .container-accord {
+        width: 100%;
+        padding: 0 1em;
+    }
+    section {
+        padding: 0;
+    }
+    .container-accord.active .answer {
+        max-height: 1000px;
+    }
+    .header-refleksion {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 7em 2em 0 2em;
+    }
+    .question {
+        height: 5.5vw;
+    }
+    .question h3 {
+        font-size: .8rem;
+    }
+    i {
+        font-size: .5rem;
+    }
+    .ressourcer-subheadings {
+        font-size: .8rem;
+    }
+    .answer p {
+        font-size: .6rem;
+        line-height: 1.3;
+    }
+    
+}

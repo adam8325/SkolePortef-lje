@@ -81,3 +81,33 @@ a:focus {
     right: 0;
     z-index: 2;
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+    .proces-container {
+        padding: 7em 2em 0em 2em;
+    }
+    .section-box {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        padding: 1em 1em;
+    }
+    .header-proces, .individuel-header {
+        text-align: center;
+    }
+    p {
+        font-size: .8rem;
+    }
+    .proces-img {
+        width: 100%;
+    }
+    .scrum-container, .pert-container {
+        background-color: red;
+    }
+    .scrum-text, .pert-text {
+
+    }
+    
+}

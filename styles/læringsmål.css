@@ -17,7 +17,7 @@
 }
 .beskrivelser {
     border: 1px solid #000;
-    padding: 5px 10px;
+    padding: 1em 1em;
     width: 100%;
     color: #081b29;
     background: white;
@@ -65,41 +65,7 @@ ul ul {
     padding-left: 20pxr    
 }
 
-/* ACCORDION */
 
-/* .container-accord {    
-    padding: 7px 10px;
-    width: 100%;
-    border-radius: 10px;
-    border: 2px solid #fff;
-    color: #ededed;
-    background: linear-gradient(180deg, #081b29, #000000);
-    cursor: pointer;        
-    border-radius: 5px;
-}
-
-.question {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.answer {
-    max-height: 0;
-    overflow: hidden;
-    max-width: 480px;
-    transition: max-height 1.4s ease;
-}
-.container-accord.active .answer {
-    max-height: 650px;
-    animation: fade 1s ease-in-out;
-}
-.container-accord.active svg {
-    transform: rotate(180deg);
-}
-svg {
-    transition: transform 0.5s ease-in;
-} */
 
 /* ANIMATIONS */
 
@@ -111,5 +77,42 @@ svg {
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+    .learning-container {
+        padding: 10em 2em 2em 2em;
+    }
+    .section-container {
+        gap: 2vh;
+    }
+    .beskrivelser {
+        padding: 1em 2em;
+    }
+    .learning-h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .learning-h2 {
+        font-size: 1.1rem;
+    }
+    .learning-h3 {
+        font-size: 1rem;
+    }
+    .learning-h4 {
+        font-size: .8rem;
+    }
+    .learning-container .outer-li {
+        font-size: .9rem;
+    }
+    ul {
+        font-size: .9rem;
+    }
+    ul ul {
+        font-size: .7rem;
     }
 }
