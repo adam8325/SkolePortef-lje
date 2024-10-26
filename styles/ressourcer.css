@@ -136,3 +136,53 @@ a:focus {
   background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);
   background: linear-gradient(to right, #0ABFBC, #FC354C);
   }
+
+
+  /* MEDIA QUERIES */
+
+  @media (max-width: 768px) {
+    main {
+        padding: 8em 2em 2em 2em;
+    }
+    .ressource-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+    }
+    .ressource-header, .ressource-container h2 {
+      margin: 1em 0em;
+    }
+    .tilesWrap {
+      display: flex;
+      flex-wrap: wrap; /* Allows wrapping for list items */
+      justify-content: space-between; /* Adds spacing between columns */
+      gap: 1em; /* Adds spacing between the wrapped items */
+    }
+
+    /* Set each <li> to take about half the container width */
+    .tilesWrap li {
+      width: 48%; /* Allows two items per row */
+      min-width: 150px; /* Adjusted minimum width */
+      padding: 40px 20px; /* Adjust padding for smaller screen */
+      margin: 10px 0; /* Space items vertically */
+      font-family: 'helvetica', sans-serif;
+      background: #262a2b;
+      border: 1px solid #252727;
+      text-align: left;
+    }
+    .tilesWrap li h2 {
+      font-size: 2rem;
+      top: 20px;
+      right: 10px;
+    }
+    .tilesWrap li h3 {
+      font-size: 1rem;
+      top: 20px;
+      right: 10px;
+    }
+    .tilesWrap li p {
+      font-size: .6rem;
+    }
+  }
