@@ -104,10 +104,14 @@ a:focus {
         width: 100%;
     }
     .scrum-container, .pert-container {
-        background-color: red;
     }
     .scrum-text, .pert-text {
-
+        font-size: 0.3rem;
+        margin: 0;
+    }
+    /* Reset hover effects */
+    .pert-container:hover, .scrum-container:hover {
+        transform: none;
     }
     
 }

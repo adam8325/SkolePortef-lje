@@ -163,10 +163,10 @@ a:focus {
 
     /* Set each <li> to take about half the container width */
     .tilesWrap li {
-      width: 48%; /* Allows two items per row */
+      width: 5%; /* Allows two items per row */
       min-width: 150px; /* Adjusted minimum width */
-      padding: 40px 20px; /* Adjust padding for smaller screen */
-      margin: 10px 0; /* Space items vertically */
+      padding: 2em 1em; /* Adjust padding for smaller screen */
+      margin: 1em 0; /* Space items vertically */
       font-family: 'helvetica', sans-serif;
       background: #262a2b;
       border: 1px solid #252727;
@@ -178,7 +178,7 @@ a:focus {
       right: 10px;
     }
     .tilesWrap li h3 {
-      font-size: 1rem;
+      font-size: .9rem;
       top: 20px;
       right: 10px;
     }
