@@ -70,7 +70,7 @@ section {
 }
 
 .container-accord.active .answer {
-    max-height: 600px;
+    max-height: 700px;
     animation: fade 1s ease-in-out;
 }
 .container-accord.active svg {

@@ -191,47 +191,60 @@
                 <div class="question">
                     <h3>Uge 42</h3>
                     <i class="fa-regular fa-calendar-days"></i>
+                    <i class="fa-solid fa-check check-icon" style="color: #63E6BE;"></i>
                     <svg width="15" height="10" viewBox="0 0 42 25">
                         <path d="M3 3L21 21L39 3" stroke="black" stroke-width="7" stroke-linecap="round"/>
                     </svg>
                 </div>    
                 <div class="answer">
                     <p class="ressourcer-subheadings">Mål</p>
-                    <p>Få styr på GraphQL API'en så den kan integreres med vores API, genoptag React-kurset, opsæt til testprojekt til frontend-laget og send flere ansøgninger</p>
+                    <p>Opsæt til testprojekt til frontend-laget, læs om test af frontend, Genoptag React-kurset og send flere ansøgninger</p>
                     <p class="ressourcer-subheadings">Ugen der gik</p>
-                    <p>Empty - Emty - Mt - " "</p>
+                    <p>I starten af ugen var jeg i tvivl om, hvordan jeg skulle teste frontend-laget, da området er helt nyt for mig. Jeg kom på tværs af forskellige YouTube-videoer, og jeg endte med at gå med ViTest, da den er moderne og bedre integreret med opdateringerne til Javascript. Det tog mig langt tid at opsætte laget, og syntaksen er meget anderledes fra de forskellige test-frameworks, der findes til backend såsom xUnit osv. </p>
+                    <p>Ikke desto mindre fik jeg oprettet nogle test til mine funktioner i frontenden, og det blev hurtigt meget klart for mig, at mine funktioner godt kunne være bedre implementeret, da funktioner viste sig at være for store og havde høj kobling til nogle af de andre funktioner. Af denne årsag måtte jeg mocke en stor del af testen, og det gjorde dem næsten ulæsbare. Derfor vil jeg refaktore store dele af frontenden, når muligheden byder sig</p>
+                    <p>Jeg fik desuden genoptaget React-kurset, og jeg kunne mærke fra start, at jeg havde brug for at genbesøge nogle af de tidligere videoer for igen at forstå syntaksen. Jeg blev påmindet om, hvor stor forskel, der er egentlig er mellem normal Javascript og JSX/React syntaksen</p>
                     <p class="ressourcer-subheadings">Ressourcer</p>
+                    <p>Scrimba - fokus på React basic kurset. YouTube videoer om opsætning af test-projekt til frontend-laget - med fokus på ViTest</p>
                 </div>            
             </div>
             <div class="container-accord">
                 <div class="question">
                     <h3>Uge 43</h3>
                     <i class="fa-regular fa-calendar-days"></i>
+                    <i class="fa-solid fa-check check-icon" style="color: #63E6BE;"></i>
                     <svg width="15" height="10" viewBox="0 0 42 25">
                         <path d="M3 3L21 21L39 3" stroke="black" stroke-width="7" stroke-linecap="round"/>
                     </svg>
                 </div>
                 <div class="answer">
                     <p class="ressourcer-subheadings">Mål</p>
-                    <p>Implementer responsive design i porteføljen</p>
+                    <p>Implementer CRUD for Category-klassen i projektet, implementer responsive design i porteføljen, fortsæt med React-kurset og genovervej praktikansøgningsstrategien</p>
                     <p class="ressourcer-subheadings">Ugen der gik</p>
-                    <p>Empty - Emty - Mt - " "</p>
+                    <p>Som en del af den ugentlige task i projektet, skulle jeg opsætte funktionaliteten for CRUD til Category-klassen samt UI/UX-delen. Det viste sig, at være lettere end først antaget, da jeg allerede havde skabelonen for det fra Product-klassen. Derfor genbrugte jeg samme Css-selectors som jeg brugte i Product-klassen, som jeg gjorde jeg kunne opsætte knapperne og dialog-vinduet på en nem og hurtig måde. Af den årsag måtte jeg også refaktorere nogle af Css-klasserne, så de fremstod mere generelle, hvilket gjorde det lettere at genbruge og vedligeholde</p>
+                    <p>Jeg fik desuden endelig implementeret et responsivt design i porteføljen, hvilket viste sig at være mere udfordrende end først antaget. Jeg døjer stadig lidt med forsiden og header-sektionen, men jeg tænker at genbesøge disse inden semesteret er over</p>
+                    <p>Slutteligt fik jeg genovervejet hele min praktikansøgningsstrategi, da jeg indtil nu ikke har fået bid på nogle af mine ansøgninger. Jeg mistænker lidt, at mine ansøgninger er for lange, og at der er for mange dokumenter til, at en potentiel praktikplads gider at læse sig igennem alle vedhæftede dokumenter. Derfor begynder jeg fremover at sende en mere generel ansøgning, der kan genbruges til de forskellige praktikpladser. Desuden vil jeg kun medsende mit praktik-cv afsted samt praktikfakta-arket, da dette virker mere overskueligt </p>
                     <p class="ressourcer-subheadings">Ressourcer</p>
+                    <p>Genbesøgte videoer om reponsivt design i Scrimba og fortsatte med React-kurset. Fandt materiale om responsivt design på YouTube samt Google</p>
                 </div>            
             </div>
             <div class="container-accord">
                 <div class="question">
                     <h3>Uge 44</h3>
                     <i class="fa-regular fa-calendar-days"></i>
+                    <i class="fa-solid fa-check check-icon" style="color: #63E6BE;"></i>
                     <svg width="15" height="10" viewBox="0 0 42 25">
                         <path d="M3 3L21 21L39 3" stroke="black" stroke-width="7" stroke-linecap="round"/>
                     </svg>
                 </div>    
                 <div class="answer">
                     <p class="ressourcer-subheadings">Mål</p>
+                    <p>Opsæt side i frontend for Csv-upload samt CRUD-funktioner hertil. Nå i mål med React basic-kurset og få sendt en masse ansøgninger afsted</p>
                     <p class="ressourcer-subheadings">Ugen der gik</p>
-                    <p>Empty - Emty - Mt - " "</p>
+                    <p>Denne uge var meget produktiv, da jeg fik opsat UI/UX for Csv-siden samt implementeret CRUD-funktionerne hertil. Jeg løb dog ind i problemer, da jeg fandt ud af, at Javascript ikke kan opsnappe en filepath fra en fil. Vores backend er nemlig sat op til at kunne tage en filepath, men dette var ikke muligt hvis jeg gad at benytte mig af et inputfelt med en type af file. I stedet måtte jeg refaktorer layoutet, så den i stedet modtager filepathen som en tekststreng, hvilket viste sig at virke. Layout-mæssigt var det ikke det pæneste, men jeg fik refaktoreret det, så det i det mindste var til at kigge på</p>
+                    <p>Derudover fik jeg færddiggjort React basic-kurset, hvilket var meget udfordrende. Jeg kneb en del med syntaksen, men jeg kom i mål med de mini-challenges der kom undervejs. Som afslutning på dette modul, fik jeg opgaven om at lave et mini-projekt, som jeg håber at kunne begynde på i de kommende uger, hvor jeg får indøvet alle de nye kompetencer jeg indtil videre har erhvervet mig</p>
+                    <p>Jeg gik også bananas med praktikansøgningerne, hvor jeg fik sendt mellem 3-10 ansøgninger daligt. Det blev til en masse afvisninger, og en del beskeder om, at de pågældende praktipladser allerede havde fået en aftale med en anden praktikant. Dog fik jeg sikret mig en samtale med Datamarked d. 12/11, som jeg glæder mig til at møde</p>
                     <p class="ressourcer-subheadings">Ressourcer</p>
+                    <p>YouTube-videoer om design af file-upload. Scrimba - med fokus på React</p>
                 </div>            
             </div>
             <div class="container-accord">
