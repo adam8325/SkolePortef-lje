@@ -233,13 +233,12 @@ img {
 /* MEDIA QUERIES */
 
 @media (max-width: 768px) {
-
     body {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         min-height: 100vh;
-        padding: 2em 0em
+        padding: 2em 0em;
     }
     main {
         margin-bottom: 3em;
@@ -263,13 +262,12 @@ img {
     .home-content h1 {
         font-size: 2rem;
         margin-bottom: 0;
-        
     }
     .home-content h3 {
         font-size: 1.1rem;
         margin: .5em 0em;
     }
-    .home-content h3 span{
+    .home-content h3 span {
         font-size: 1.1rem;
     }
     .home-content p {
@@ -277,24 +275,21 @@ img {
         line-height: 1.5;
         margin-bottom: 0;
     }
-    
-    .profile-pic{
+    .profile-pic {
         width: 250px;
     }
 
     footer {
-        align-self: flex-end;
+        align-self: center;
         height: 10vh;
+        z-index: 1; /* Added z-index to make sure footer stays above other elements */
     }
     .footer-links {
-        z-index: -1;
         justify-content: center;
         gap: 5vh;
         padding: 0; /* Removes side padding */
     }
     .footer-links a {
-        z-index: -1;
-        
+        /* Remove z-index adjustments */
     }
-
 }
