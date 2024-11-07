@@ -259,19 +259,19 @@ img {
     }
     .home-content {
         width: 90%;
-        text-align: center;
     }
     .home-content h1 {
         font-size: 2rem;
     }
     .home-content h3 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .home-content h3 span{
         font-size: 1.5rem;
     }
     .home-content p {
         font-size: .8rem;
+        line-height: 1.5;
         margin-bottom: 0;
     }
     
@@ -281,9 +281,9 @@ img {
 
     footer {
         align-self: flex-end;
+        height: 10vh;
     }
     .footer-links {
-        
         z-index: -1;
         justify-content: center;
         gap: 5vh;
