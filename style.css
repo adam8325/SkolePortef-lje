@@ -237,12 +237,13 @@ img {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        padding: 2em 0em;
+        padding: 2em 0em 0 0;
     }
     main {
         margin-bottom: 3em;
         flex-grow: 1;
-        height: 80vh;
+        height: 90vh;
+        overflow: hidden;
     }
     .home {
         padding: 8em 0em 0em 0em;
@@ -282,7 +283,7 @@ img {
     footer {
         align-self: center;
         height: 10vh;
-        margin: 5em 0em;
+        margin: 5em 0em 0 0;
     }
     .footer-links {
         justify-content: center;
