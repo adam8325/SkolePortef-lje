@@ -238,8 +238,8 @@ img {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        padding: 0 0 3em 0;
         min-height: 100vh;
+        padding: 2em 0em
     }
     main {
         margin-bottom: 3em;
@@ -262,12 +262,15 @@ img {
     }
     .home-content h1 {
         font-size: 2rem;
+        margin-bottom: 0;
+        
     }
     .home-content h3 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+        margin: .5em 0em;
     }
     .home-content h3 span{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .home-content p {
         font-size: .8rem;
