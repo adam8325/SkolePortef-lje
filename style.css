@@ -237,12 +237,12 @@ img {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        min-height: 100vh;
         padding: 2em 0em;
     }
     main {
         margin-bottom: 3em;
         flex-grow: 1;
+        height: 80vh;
     }
     .home {
         padding: 8em 0em 0em 0em;
@@ -282,14 +282,11 @@ img {
     footer {
         align-self: center;
         height: 10vh;
-        z-index: 1; /* Added z-index to make sure footer stays above other elements */
+        margin: 5em 0em;
     }
     .footer-links {
         justify-content: center;
         gap: 5vh;
         padding: 0; /* Removes side padding */
-    }
-    .footer-links a {
-        /* Remove z-index adjustments */
     }
 }
