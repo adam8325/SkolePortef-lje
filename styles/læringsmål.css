@@ -33,6 +33,15 @@
     font-size: 1.3rem;
     margin-bottom: 20px;
 }
+.ects {
+    font-weight: 500;
+    color: white;
+    margin: 0 0 0 1em;
+    font-size: .8rem;
+    background: linear-gradient(to right, rgb(15, 83, 146), #081b29);
+    padding: .5em .7em;
+    border-radius: 5px;
+}
 .learning-container h3 {
     font-size: 1.1rem;    
     font-weight: 700;
