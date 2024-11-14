@@ -13,16 +13,28 @@ fetch('../assets/header.html')
         if (isIndexPage || isRootNetlifyDomain) {
             document.querySelector('.header').classList.add('animate');
         }
+
+        //CODE FOR THE MENU-BTN
+
+        const menuBtn = document.getElementById("menu-btn")
+        const navbar = document.getElementById("navbar")
+
+        menuBtn.addEventListener('click', () => {            
+
+            navbar.classList.toggle("menu")                       
+           
+        });
+
     });
 
-//Accordion toggle function
+    //Accordion toggle function
 
-const faqs = document.querySelectorAll(".container-accord");
+    const faqs = document.querySelectorAll(".container-accord");
 
-faqs.forEach((accord) => { 
-    accord.addEventListener('click', () => {
-        accord.classList.toggle('active');
-    });
+    faqs.forEach((accord) => { 
+        accord.addEventListener('click', () => {
+            accord.classList.toggle('active');
+        });
 });
 
 
@@ -35,5 +47,8 @@ let typed = new Typed('.multiple-text', {
     backDelay: 500,
     loop: true
 });
+
+
+
 
 
