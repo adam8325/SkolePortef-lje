@@ -306,7 +306,7 @@ img {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        gap: 2em;  
+        gap: 5em;  
     }
     .home-img {
         margin: 0em;
