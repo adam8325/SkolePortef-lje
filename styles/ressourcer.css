@@ -142,7 +142,7 @@ a:focus {
 
   @media (max-width: 768px) {
     main {
-        padding: 8em 2em 2em 2em;
+        padding: 5em 2em;
     }
     .ressource-container {
         display: flex;
@@ -152,7 +152,7 @@ a:focus {
         gap: 2em;
     }
     .ressource-header, .ressource-container h2 {
-      margin: 1em 0em;
+      margin: .5em 0em;
     }
     .tilesWrap {
       display: flex;

@@ -86,7 +86,7 @@ a:focus {
 
 @media (max-width: 768px) {
     .proces-container {
-        padding: 7em 2em 0em 2em;
+        padding: 2em 2em 0em 2em;
     }
     .section-box {
         display: flex;

@@ -92,14 +92,17 @@ ul ul {
 /* MEDIA QUERIES */
 
 @media (max-width: 768px) {
+
     .learning-container {
-        padding: 10em 2em 2em 2em;
+        padding: 5em 2em 2em 2em;
     }
     .section-container {
         gap: 2vh;
+        
     }
     .beskrivelser {
         padding: 1em 2em;
+        margin-bottom: 3em;
     }
     .learning-h1 {
         font-size: 1.5rem;

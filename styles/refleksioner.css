@@ -96,11 +96,13 @@ svg {
 /* MEDIA QUERIES */
 
 @media (max-width: 768px) {
+   
     .accordion-container {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 0 3em;
+        padding: 0em 3em;
+        margin-bottom: 3em;
     }
     .container-accord {
         width: 100%;
@@ -115,7 +117,7 @@ svg {
     .header-refleksion {
         text-align: center;
         font-size: 1.5rem;
-        padding: 7em 2em 0 2em;
+        padding: 4em 2em 0 2em;
     }
     .question {
         height: 5.5vw;
