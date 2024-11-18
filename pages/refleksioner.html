@@ -242,7 +242,7 @@
                     <p class="ressourcer-subheadings">Ugen der gik</p>
                     <p>Denne uge var meget produktiv, da jeg fik opsat UI/UX for Csv-siden samt implementeret CRUD-funktionerne hertil. Jeg løb dog ind i problemer, da jeg fandt ud af, at Javascript ikke kan opsnappe en filepath fra en fil. Vores backend er nemlig sat op til at kunne tage en filepath, men dette var ikke muligt hvis jeg gad at benytte mig af et inputfelt med en type af file. I stedet måtte jeg refaktorer layoutet, så den i stedet modtager filepathen som en tekststreng, hvilket viste sig at virke. Layout-mæssigt var det ikke det pæneste, men jeg fik refaktoreret det, så det i det mindste var til at kigge på</p>
                     <p>Derudover fik jeg færddiggjort React basic-kurset, hvilket var meget udfordrende. Jeg kneb en del med syntaksen, men jeg kom i mål med de mini-challenges der kom undervejs. Som afslutning på dette modul, fik jeg opgaven om at lave et mini-projekt, som jeg håber at kunne begynde på i de kommende uger, hvor jeg får indøvet alle de nye kompetencer jeg indtil videre har erhvervet mig</p>
-                    <p>Jeg gik også bananas med praktikansøgningerne, hvor jeg fik sendt mellem 3-10 ansøgninger daligt. Det blev til en masse afvisninger, og en del beskeder om, at de pågældende praktipladser allerede havde fået en aftale med en anden praktikant. Dog fik jeg sikret mig en samtale med Datamarked d. 12/11, som jeg glæder mig til at møde</p>
+                    <p>Jeg gik også bananas med praktikansøgningerne, hvor jeg fik sendt mellem 3-10 ansøgninger dagligt. Det blev til en masse afvisninger, og en del beskeder om, at de pågældende praktipladser allerede havde fået en aftale med en anden praktikant. Dog fik jeg sikret mig en samtale med Datamarked d. 12/11, som jeg glæder mig til at møde</p>
                     <p class="ressourcer-subheadings">Ressourcer</p>
                     <p>YouTube-videoer om design af file-upload. Scrimba - med fokus på React</p>
                 </div>            
@@ -251,30 +251,40 @@
                 <div class="question">
                     <h3>Uge 45</h3>
                     <i class="fa-regular fa-calendar-days"></i>
+                    <i class="fa-solid fa-check check-icon" style="color: #63E6BE;"></i>
                     <svg width="15" height="10" viewBox="0 0 42 25">
                         <path d="M3 3L21 21L39 3" stroke="black" stroke-width="7" stroke-linecap="round"/>
                     </svg>
                 </div>    
                 <div class="answer">
                     <p class="ressourcer-subheadings">Mål</p>
+                    <p>Fix responsiv bug ved header, nå i mål med ekstra features til Tenzies React og fortsæt med praktikansøgninger</p>
                     <p class="ressourcer-subheadings">Ugen der gik</p>
-                    <p>Empty - Emty - Mt - " "</p>
+                    <p>Jeg fik endelig fixet en bug, der havde drillet mig i noget tid, hvor jeg fik implementeret en hamburger-menu til mobil layoutet. Det gav mig anledning til at tænkte, at min folder-struktur nok ikke har været helt optimal ift. at lave en website, der kører med flere sider. Hamburger-menuen virker, men der er helt klart plads til forbedringer, hvis jeg vælger at genbesøge denne feature</p>
+                    <p>Som led i afslutningen af React-basic modulet, så fik jeg implementeret Tenzies react spillet, og desuden tilføjet nogle ekstra features, der tracker antal rul samt den tid, der blev brugt for at få fuld hus. Projektet gjorde, at jeg fik arbejdet med props, useState og useEffect. Jeg håber at kunne gennemføre en sektion i React advanced modulet inden semesteret er over.</p>
+                    <p>Jeg var desuden til praktiksamtale hos en virksomhed, som jeg personligt synes gik fint. Dog var mødet en del ustruktureret, og virksomheden vente også tilbage med, at de ikke kunne tilbyde mig praktikpladsen grundet deres interne forhold</p>
                     <p class="ressourcer-subheadings">Ressourcer</p>
+                    <p>Gennemgå dokumenter til forberedelse af praktiksamtale, samt YouTube-videoer ift. implementering af hamburger-menu</p>
                 </div>            
             </div>
             <div class="container-accord">
                 <div class="question">
                     <h3>Uge 46</h3>
                     <i class="fa-regular fa-calendar-days"></i>
+                    <i class="fa-solid fa-check check-icon" style="color: #63E6BE;"></i>
                     <svg width="15" height="10" viewBox="0 0 42 25">
                         <path d="M3 3L21 21L39 3" stroke="black" stroke-width="7" stroke-linecap="round"/>
                     </svg>
                 </div>    
                 <div class="answer">
                     <p class="ressourcer-subheadings">Mål</p>
+                    <p>Refaktorer Product-klassen i projektet til at bruge Sku som Id, påbegynd React Advanced kursus</p>
                     <p class="ressourcer-subheadings">Ugen der gik</p>
-                    <p>Empty - Emty - Mt - " "</p>
+                    <p>I projektet fik vi forventningsafstemt, hvor meget vi regner med at nå inden afleveringen. Som resultat valgte vi kun at implementere den del af systemet, der har med Shopify at gøre. Det gav lidt ro inden i og samtidig et mere realistisk mål, hvor systemet ender med at være en Mvp, der dog indeholder de væsentligste systemkrav.</p>
+                    <p>Derudover fik jeg som opgave at refaktorer i vores kode, så vi i stedet for database-id'et nu bruger Sku'en i vores Crud-funktioner, da denne property er unik både i Shopify og i vores database. Jeg nåede ikke i mål med selve implementeringen, da jeg var lidt usikker på, hvor meget der skulle tilrettes i de forskellige lag.</p>
+                    <p>Jeg fik påbegyndt React Advanced modulet, som jeg håber at kunne afslutte inden semesteret er over. Motivationen er lidt lav, da jeg i forvejen stresser med at nå i mål med at finde en praktikplads, men jeg regner med at se nogle videoer dagligt, så jeg ikke kommer for langt bagud</p>
                     <p class="ressourcer-subheadings">Ressourcer</p>
+                    <p>Scrimba - med fokus på React Advanced</p>
                 </div>            
             </div>
             <div class="container-accord">
@@ -287,6 +297,7 @@
                 </div>    
                 <div class="answer">
                     <p class="ressourcer-subheadings">Mål</p>
+                    <p>Samtale med en anden virksomhed, få genbesøgt individuelle læringsmål samt at komme ordentligt i gang med React Advanced modulet</p>
                     <p class="ressourcer-subheadings">Ugen der gik</p>
                     <p>Empty - Emty - Mt - " "</p>
                     <p class="ressourcer-subheadings">Ressourcer</p>
