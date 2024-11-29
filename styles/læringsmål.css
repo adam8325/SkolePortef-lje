@@ -106,7 +106,7 @@ ul ul {
         gap: 2vh;   
     }
     .beskrivelser {
-        padding: 1em 2em;
+        padding: 1em 2em 0em 1em;
         margin-bottom: 3em;
     }
     .learning-h1 {
