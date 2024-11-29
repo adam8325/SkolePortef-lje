@@ -340,7 +340,7 @@ img {
         margin-top: 0;
     }
     .footer-links {
-        margin-top: -8em;
+        margin-top: -6em;
         justify-content: center;
         gap: 5vh;
         padding: 0; /* Removes side padding */
