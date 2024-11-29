@@ -109,7 +109,10 @@ svg {
         padding: 0 1em;
     }
     section {
-        padding: 0;
+        padding: 0em;
+    }
+    .bottom-section {
+        padding-bottom: 3em;
     }
     .container-accord.active .answer {
         max-height: 1000px;

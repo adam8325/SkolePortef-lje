@@ -94,6 +94,9 @@ a:focus {
         gap: 2em;
         padding: 1em 1em;
     }
+    .bottom-section {
+        padding-bottom: 3em;
+    }
     .header-proces, .individuel-header {
         text-align: center;
     }

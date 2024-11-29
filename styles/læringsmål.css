@@ -103,8 +103,7 @@ ul ul {
         padding: 5em 2em 2em 2em;
     }
     .section-container {
-        gap: 2vh;
-        
+        gap: 2vh;   
     }
     .beskrivelser {
         padding: 1em 2em;
@@ -132,5 +131,6 @@ ul ul {
     }
     ul ul {
         font-size: .7rem;
+        line-height: 2;
     }
 }

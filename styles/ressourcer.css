@@ -165,12 +165,13 @@ a:focus {
       flex-wrap: wrap; /* Allows wrapping for list items */
       justify-content: space-between; /* Adds spacing between columns */
       gap: 1em; /* Adds spacing between the wrapped items */
+      padding-bottom: 2em;
     }
 
     /* Set each <li> to take about half the container width */
     .tilesWrap li {
       width: 5%; /* Allows two items per row */
-      min-width: 150px; /* Adjusted minimum width */
+      min-width: 130px; /* Adjusted minimum width */
       padding: 2em 1em; /* Adjust padding for smaller screen */
       margin: 1em 0; /* Space items vertically */
       font-family: 'helvetica', sans-serif;
@@ -184,7 +185,8 @@ a:focus {
       right: 10px;
     }
     .tilesWrap li h3 {
-      font-size: .9rem;
+      margin-top: 3em;
+      font-size: .7rem;
       top: 20px;
       right: 10px;
     }
