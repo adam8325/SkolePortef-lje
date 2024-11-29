@@ -25,6 +25,9 @@ p {
 }
 
 /* LINKS */
+.design-links {
+  padding: 1em;
+}
 
 a {
     color: #0ef;
@@ -35,6 +38,9 @@ a:focus {
 }
 
 /* IMAGE */
+.frontend-image {
+  margin: 3em 0em;
+}
 
 .frontend-pic {
     width: 280px;

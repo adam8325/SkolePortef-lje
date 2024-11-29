@@ -23,6 +23,11 @@
     background: white;
     border-radius: 5px;    
 }
+.valgfag-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
 
 /* TYPOGRAPHY */
 
@@ -30,7 +35,7 @@
     margin-bottom: 1.7em;
 }
 .learning-container h2 {
-    font-size: 1.3rem;
+    font-size: 2rem;
     margin-bottom: 20px;
 }
 .ects {
@@ -68,10 +73,11 @@ ul li {
 }
 
 ul ul {
+    margin-bottom: 2em;
     list-style-type: circle;
     font-size: 0.8rem;
     font-weight: 600;
-    padding-left: 20pxr    
+    padding-left: 1em;    
 }
 
 
